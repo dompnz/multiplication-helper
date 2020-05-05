@@ -46,8 +46,8 @@ export default {
 </script>
 
 <style lang="scss">
-$highlight-color: rgba(green, 0.1);
-$highlight-color-2: rgba(yellow, 0.1);
+$highlight-color: rgba(red, 0.1);
+$highlight-color-2: rgba(blue, 0.1);
 
 .numbersContainer {
   width: 100%;
