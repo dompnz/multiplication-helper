@@ -24,8 +24,19 @@ export default {
 }
 */
 
+@keyframes colorRotate {
+  from {
+    filter: hue-rotate(0deg);
+  }
+
+  to {
+    filter: hue-rotate(360deg);
+  }
+}
+
 body {
   background-color: rgba(lightcoral, 0.3);
+  animation: colorRotate 60s linear 0s infinite;
 }
 
 .container {

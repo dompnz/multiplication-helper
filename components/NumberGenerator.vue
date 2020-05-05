@@ -46,6 +46,9 @@ export default {
 </script>
 
 <style lang="scss">
+$highlight-color: rgba(green, 0.1);
+$highlight-color-2: rgba(yellow, 0.1);
+
 .numbersContainer {
   width: 100%;
   max-width: 60rem;
@@ -75,7 +78,7 @@ export default {
     input {
       margin-left: auto;
       text-align: center;
-      background-color: rgba(red, 0.1);
+      background-color: $highlight-color;
     }
   }
 }
@@ -100,7 +103,7 @@ ul.numbersList {
     height: 2rem;
     //background-color: lightcoral;
     border: 1px solid black;
-    background-color: rgba(blue, 0.1);
+    background-color: $highlight-color-2;
     display: inline;
     // -- center text vertically
     display: flex;
@@ -110,7 +113,7 @@ ul.numbersList {
 
     &.lastOfLine {
       font-weight: bold;
-      background-color: rgba(red, 0.1);
+      background-color: $highlight-color;
     }
 
     @media (min-width: 768px) {
