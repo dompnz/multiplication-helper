@@ -36,7 +36,7 @@ export default {
 
 body {
   background-color: rgba(lightcoral, 0.3);
-  animation: colorRotate 60s linear 0s infinite;
+  //animation: colorRotate 60s linear 0s infinite;
 }
 
 .container {
