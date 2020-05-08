@@ -7,7 +7,13 @@
       </div>
       <div>
         <span>Lines:</span>
-        <input v-model.number="numberLines" type="number" @change="generateNumbers()" />
+        <input
+          v-model.number="numberLines"
+          type="number"
+          @change="generateNumbers()"
+          step="10"
+          min="10"
+        />
       </div>
     </div>
     <ul class="numbersList">
